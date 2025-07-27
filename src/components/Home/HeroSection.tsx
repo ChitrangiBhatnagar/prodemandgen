@@ -107,7 +107,7 @@ const HeroSection = () => {
               >
                 <Shield className="h-5 w-5 text-primary" />
                 <span className="text-sm font-medium text-accent-foreground">
-                  Powered by SalesCentri Intelligence
+                  Powered by Sales AI
                 </span>
               </a>
             </div>

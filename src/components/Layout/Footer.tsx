@@ -78,7 +78,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Partner Network
+                  Sales AI
                 </a>
               </li>
             </ul>
