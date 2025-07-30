@@ -38,16 +38,22 @@ const CTASection = () => {
                 variant="outline" 
                 size="lg" 
                 className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 border-primary-foreground text-lg px-8"
+                asChild
               >
-                Start Free Trial
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                  Start Free Trial
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <Button 
                 variant="ghost" 
                 size="lg" 
                 className="text-primary-foreground hover:bg-primary-foreground/10 border border-primary-foreground/30 text-lg px-8"
+                asChild
               >
-                Schedule Demo
+                <a href="https://salescentri.com/get-started/book-demo" target="_blank" rel="noopener noreferrer">
+                  Schedule Demo
+                </a>
               </Button>
             </div>
 

@@ -32,11 +32,15 @@ const HeroSection = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8">
-                Start Free Trial
+              <Button variant="hero" size="lg" className="text-lg px-8" asChild>
+                <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                  Start Free Trial
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8">
-                Book Demo
+              <Button variant="outline" size="lg" className="text-lg px-8" asChild>
+                <a href="https://salescentri.com/get-started/book-demo" target="_blank" rel="noopener noreferrer">
+                  Book Demo
+                </a>
               </Button>
             </div>
 

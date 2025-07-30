@@ -8,10 +8,10 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: "Features", href: "/features" },
+    { name: "Solutions", href: "/solutions" },
     { name: "Pricing", href: "/pricing" },
+    { name: "Resources", href: "/resources" },
     { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -46,11 +46,15 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              Sign In
+            <Button variant="outline" size="sm" asChild>
+              <a href="https://salescentri.com/login/customer-portal" target="_blank" rel="noopener noreferrer">
+                Sign In
+              </a>
             </Button>
-            <Button variant="hero" size="sm">
-              Start Free Trial
+            <Button variant="hero" size="sm" asChild>
+              <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                Start Free Trial
+              </a>
             </Button>
           </div>
 
@@ -85,11 +89,15 @@ const Header = () => {
                 </Link>
               ))}
               <div className="flex flex-col space-y-2 px-3 pt-4">
-                <Button variant="outline" size="sm">
-                  Sign In
+                <Button variant="outline" size="sm" asChild>
+                  <a href="https://salescentri.com/login/customer-portal" target="_blank" rel="noopener noreferrer">
+                    Sign In
+                  </a>
                 </Button>
-                <Button variant="hero" size="sm">
-                  Start Free Trial
+                <Button variant="hero" size="sm" asChild>
+                  <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                    Start Free Trial
+                  </a>
                 </Button>
               </div>
             </div>
